@@ -1,0 +1,228 @@
+@import '../../../constant/theme.less';
+
+@media @desktop {
+  #cart-screen-wrapper {
+    padding: 16.89vw 2.34vw;
+    width: 100%;
+    // max-width: 1240px;
+    margin: auto !important;
+    //CART ITEM LIST//
+    //------------------------//
+    .cart-item-list-wrapper {
+      margin-top: 8.2vw;
+      .item-wrapper {
+        border: solid #BCE0FD 1px;
+        padding: 1.37vw 2.93vw;
+        .item-info-wrapper {
+          display: flex;
+          align-items: center;
+          .item-name {
+            width: 19.53vw;
+            color: #0F0D0D;
+            font-size: 1.35vw;
+            font-weight: bold;
+            margin-bottom: 0.2vw;
+            font-family: RobotoBold;
+          }
+          .item-des {
+            color: #0F0D0D;
+            font-size: 1.66vw;
+            margin-bottom: 0px;
+            font-family: Roboto;
+          }
+          img {
+            width: 10.42vw;
+          }
+        }
+        .quantity-input-wrapper {
+          p {
+            color: #0F0D0D;
+            font-family: Roboto;
+            font-size: 1.46vw;
+            margin-bottom: 0px;
+          }
+         .quantity-input-wrapper-control {
+           display: flex;
+           width: 10.84vw;
+           .ant-btn {
+             background: none !important;
+             border: none;
+             color: #000000;
+           }
+           .quantity-input-custom, .ant-input {
+            font-family: RobotoBold;
+            text-align: center !important;
+            background: none;
+            border: none;
+            color: #000000 !important;
+            font-size: 1.66vw;
+            padding: 0px !important;
+          }
+         }
+        }
+        .item-price-wrapper {
+          width: 12.7vw;
+          text-align: right;
+          p {
+            color: #EC1D26;
+            font-weight: bold;
+            font-size: 2.44vw;
+            margin-bottom: 0px;
+            font-family: RobotoBold;
+          }
+        }
+      }
+    }
+    //TOTAL WRAPPER
+    //------------------------//
+    #total-wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 2.05vw 2.93vw;
+      background-color: #F1F9FF;
+      height: 7.03vw;
+      margin-top: 2.15vw;
+      margin-bottom: 12.11vw;
+      #total-title {
+        color: #0F0D0D;
+        font-size: 1.95vw;
+        font-family: RobotoBold;
+      }
+      #total-number {
+        color: #EC1D26;
+        font-size: 2.44vw;
+        font-family: RobotoBold;
+      }
+    }
+
+    //BUTTON
+    //-----------------------//
+    #cart-checkout-btn {
+      width: 22.46vw;
+      height: 7.42vw;
+      border-radius: 0.39vw;
+      margin: auto;
+      background-color: #EC1D26;
+      color: #ffffff;
+      font-size: 2.44vw;
+      font-weight: bold;
+    }
+  }
+}
+
+@media @mobile {
+  #cart-screen-wrapper {
+    padding: 4.53vw 6.4vw;
+    //CART ITEM LIST//
+    //------------------------//
+    .cart-item-list-wrapper {
+      margin-top: 4.8vw;
+      .item-wrapper {
+        border: solid #BCE0FD 0.27vw;
+        padding: 3.73vw 2.67vw;
+        .item-info-wrapper {
+          position: relative;
+          .ant-btn {
+            position: absolute;
+            top: -2.5vw;
+            right: -55.94vw;
+            width: 6.25vw;
+            height: 6.25vw;
+            padding: 0px;
+            text-align: center;
+          }
+          .item-name {
+            width: 26.88vw;
+            color: #0F0D0D;
+            font-size: 3vw;
+            margin-bottom: 0.53vw;
+            font-family: RobotoBold;
+          }
+          .item-des {
+            color: #0F0D0D;
+            font-size: 3.2vw;
+            margin-bottom: 0px;
+            font-family: Roboto;
+          }
+          img {
+            width: 25vw;
+          }
+        }
+        .quantity-input-wrapper {
+          p {
+            color: #0F0D0D;
+            font-family: Roboto;
+            font-size: 4vw;
+            margin-bottom: 0px;
+          }
+         .quantity-input-wrapper-control {
+           display: flex;
+           width: 29.6vw;
+           .ant-btn {
+             background: none !important;
+             border: none;
+             color: #000000;
+             padding: 0px;
+           }
+           .quantity-input-custom {
+            font-family: RobotoBold;
+            text-align: center !important;
+            background: none;
+            border: none;
+            color: #000000 !important;
+            padding: 0 !important;
+            font-size: 3.73vw;
+          }
+         }
+        }
+        .item-price-wrapper {
+          width: 20.31vw;
+          text-align: right;
+          p {
+            color: #EC1D26;
+            font-weight: bold;
+            font-size: 4vw;
+            margin-bottom: 0px;
+            font-family: RobotoBold;
+          }
+        }
+      }
+    }
+    //TOTAL WRAPPER
+    //------------------------//
+    #total-wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 3.73vw 2.67vw;
+      background-color: #F1F9FF;
+      height: 11.2vw;
+      margin-top: 5.87vw;
+      margin-bottom: 9.07vw;
+      #total-title {
+        color: #0F0D0D;
+        font-size: 3.2vw;
+        font-family: RobotoBold;
+      }
+      #total-number {
+        color: #EC1D26;
+        font-size: 4vw;
+        font-family: RobotoBold;
+      }
+    }
+
+    //BUTTON
+    //-----------------------//
+    #cart-checkout-btn {
+      width: 32vw;
+      height: 12.27vw;
+      border-radius: 1.07vw;
+      margin: auto;
+      background-color: #EC1D26;
+      color: #ffffff;
+      font-size: 4vw;
+      font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #EC1D26;
+  --secondary-color: #E2A723;
+  --grey-text: #707070;
+  --light-gray: #E3E3E3;
+  --green-base: #70AD47;
+
+  --font-sans: 'Oswald';
+
+  @font-face {
+    font-family: 'Oswald';
+    src: url('assets/fonts/Oswald-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: 'Oswald';
+    src: url('assets/fonts/Oswald-ExtraLight.ttf');
+    font-weight: 200;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Oswald';
+    src: url('assets/fonts/Oswald-Medium.ttf');
+    font-weight: 500;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Oswald';
+    src: url('assets/fonts/Oswald-Bold.ttf');
+    font-weight: 700;
+    font-display: swap;
+  }
+}

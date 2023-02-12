@@ -1,0 +1,52 @@
+@import '../../../constant/theme.less';
+
+
+@media @desktop {
+  .checkout-steps-wrapper {
+    max-width: 39.75vw;
+    height: 8.5vw;
+    margin: auto;
+    .step-item {
+      color: #0F0D0D;
+      font-family: RobotoBold;
+    }
+    .ant-steps-icon-dot {
+      background: #2699FB !important;
+    }
+    .ant-steps-item-process {
+      .ant-steps-item-title {
+        margin-top: 0.59vw;
+        font-size: 1.37vw;
+        color: #EC1D26 !important;
+      }
+      // .ant-steps-icon-dot::after {
+      //   background-color: rgba(241, 249, 255, 0.4);
+      //   border: solid 0.1vw rgb(241, 249, 255);
+      //   width: 3.91vw;
+      //   height: 3.91vw;
+      //   left: -1.46vw;
+      //   top: -1.46vw;
+      //   border-radius: 1.95vw;
+      // }
+    }
+    .ant-steps-item-wait {
+      .ant-steps-item-title {
+        margin-top: 0.59vw;
+        font-size: 1.66vw;
+        color: #0F0D0D !important;
+      }
+    }
+    .ant-steps-item-tail::after {
+      background-color: #F1F9FF !important;
+    }
+  }
+}
+
+@media @mobile {
+  .checkout-steps-wrapper {
+    display: none;
+    .ant-steps-item-tail::after {
+      background-color: #F1F9FF !important;
+    }
+  }
+}

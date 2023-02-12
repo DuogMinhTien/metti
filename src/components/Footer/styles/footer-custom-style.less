@@ -1,0 +1,346 @@
+@import '../../../constant/theme.less';
+
+
+@media @desktop {
+  #footer-custom-wrapper {
+    border-top: 3px solid #EC1D26;
+    padding: 2.05vw 6.74vw;
+    width: 100%; 
+    margin: auto !important;
+    background-color: #E7EbEA;
+  
+    #footer-contact-wrapper {
+      text-align: left; 
+      .ant-row {  
+        #footer-logo-wrapper { 
+          p {
+            font-size: 1.95vw;
+            color: #707070;
+            margin-bottom: 0px;
+            font-family: RobotoBold;
+          }
+          img {
+            width: 11.82vw;
+          }
+          .ant-divider-horizontal {
+            min-width: 24.41vw !important;
+            width: 24.41vw;
+            border: solid 2px #707070;
+          }
+          .line {
+            margin: 10px 0;
+            width: 40%;
+            height: 2px;
+            background-color: #707070;
+          }
+        }
+      }
+      #location-wrapper { 
+        .location-item-wrapper {
+          margin-top: 21.5px;
+          display: flex;
+          flex-direction: row;
+          .anticon {
+            font-size: 1.95vw;
+          }
+          p {
+            margin-left: 1.17vw;
+            margin-bottom: 0px;
+            color: #707070;
+            font-size: 1.37vw;
+            font-family: Roboto;
+          }
+        }
+       }
+  
+    }
+  
+    #footer-subcrible-wrapper {  
+      padding-left: 4.39vw !important; 
+      margin-top: 2.93vw;
+      #subcrible-input-wrapper { 
+        h4 {
+          font-weight: bold;
+          color: #0F0D0D;
+          font-size: 1.95vw;
+          text-align: left;
+        }
+        .ant-form {
+          position: relative;
+          display: flex;
+          flex-direction: row;
+          width: 35.06vw;
+          .subcrible-input {
+            width: 29.2vw;
+            .ant-form-item-label {
+              label {
+                color: #7C7C7C;
+                font-size: 1.07vw;
+                font-family: RobotoBold;
+              }
+            }
+            .ant-form-item-control {
+              width: 100%;
+              height: 4.79vw;
+              .ant-form-item-control-input {
+                height: 100%;
+                .ant-form-item-control-input-content {
+                  height: 100%;
+                  input {
+                    height: 100%;
+                    border-radius: 0px;
+                    border-right: none;
+                    border-top: solid 1px #EC1D26;
+                    border-left: solid 1px #EC1D26;
+                    border-bottom: solid 1px #EC1D26;
+                  }
+                }
+              }
+            }
+          }
+          .subcrible-button-wrapper {
+            width: 5.86vw;
+            .ant-form-item-label {
+              label {
+                color: #E7EBEA;
+                font-size: 1.07vw;
+                font-family: RobotoBold;
+              }
+            }
+            .ant-form-item-control {
+              width: 100%;
+              height: 4.79vw;
+              .ant-form-item-control-input {
+                width: 100%;
+                height: 100%;
+                .ant-form-item-control-input-content {
+                  height: 100%;
+                  .subcrible-btn {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 0px;
+                    border-left: none;
+                    border-top: solid 1px #EC1D26;
+                    border-right: solid 1px #EC1D26;
+                    border-bottom: solid 1px #EC1D26;
+                    background-color: #F2F5F4;
+                    .anticon {
+                      color: #EC1D26;
+                      font-size: 1.37vw;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      #footer-social-wrapper {
+        text-align: left; 
+        display: flex !important;
+        flex-direction: column; 
+        justify-content: flex-end;
+        h4 {
+          font-size: 1.95vw;
+          font-weight: bold;
+          color: #0F0D0D;
+        }
+        #social-icon-wrapper {
+          max-width: 54.88vw;
+          width: 100%;
+          display: flex !important;
+          flex-direction: row;
+          justify-content: space-between;
+          img {
+            margin-right: 3.91vw;
+            width: 3.13vw;
+            height: 3.13vw;
+          }
+        }
+      }
+    }
+  
+    .ant-divider-horizontal {
+      border: solid 1px #707070;
+    }
+  
+    #footer-item-copyrigth {
+      p {
+        margin: 0;
+        font-size: 1.37vw;
+        color: #707070;
+        font-family: Roboto;
+      }
+    }  
+  }
+}
+
+
+@media @mobile {
+  #footer-custom-wrapper {
+    border-top: 0.8vw solid #EC1D26;
+    padding: 2.67vw 3.47vw;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    #footer-contact-wrapper {
+      text-align: left;
+  
+      .ant-row {
+        #footer-logo-wrapper {
+          // border: solid 1px red;
+          p {
+            font-weight: bold;
+            font-size: 3.47vw;
+            color: #0F0D0D;
+            margin-bottom: 0px;
+            font-family: RobotoBold;
+          }
+          img {
+            width: 25.87vw;
+          }
+          .ant-divider-horizontal {
+            width: 34.13vw !important;
+            min-width: 34.13vw !important;
+            border: solid 0.27vw #707070;
+          }
+        }
+      }
+      #location-wrapper {
+        .location-item-wrapper { 
+          margin-top: 4vw;
+          display: flex;
+          flex-direction: row;
+          .anticon {
+            font-size: 4.38vw;
+          }
+          p {
+            margin-left: 3.13vw;
+            margin-bottom: 0px;
+            color: #707070;
+            font-size: 3.2vw;
+            font-family: Roboto;
+          }
+        } 
+      }
+    }
+  
+    #footer-subcrible-wrapper {
+      padding-top: 19.47vw;
+      // text-align: right;
+  
+      #subcrible-input-wrapper {
+        h4 {
+          font-weight: bold;
+          color: #0F0D0D;
+          font-size: 3.47vw;
+          text-align: left;
+          font-family: RobotoBold;
+        }
+        .ant-form {
+          display: flex;
+          flex-direction: row;
+          width: 93.07vw;
+          .subcrible-input {
+            width: 72vw;
+            .ant-form-item-label {
+              label {
+                color: #7C7C7C;
+                font-size: 3.2vw;
+                font-family: RobotoBold;
+              }
+            }
+            .ant-form-item-control {
+              width: 100%;
+              height: 12.8vw;
+              .ant-form-item-control-input {
+                height: 100%;
+                .ant-form-item-control-input-content {
+                  height: 100%;
+                  input {
+                    height: 100%;
+                    border-radius: 0px;
+                    border-right: none;
+                    border-top: solid 1px #EC1D26;
+                    border-left: solid 1px #EC1D26;
+                    border-bottom: solid 1px #EC1D26;
+                  }
+                }
+              }
+            }
+          }
+          .subcrible-button-wrapper {
+            width: 21.07vw;
+            .ant-form-item-label {
+              label {
+                color: #F2F5F4;
+                font-size: 3.2vw;
+                font-family: RobotoBold;
+              }
+            }
+            .ant-form-item-control {
+              width: 100%;
+              height: 12.8vw;
+              .ant-form-item-control-input {
+                width: 100%;
+                height: 100%;
+                .ant-form-item-control-input-content {
+                  height: 100%;
+                  .subcrible-btn {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 0px;
+                    border-left: none;
+                    border-top: solid 1px #EC1D26;
+                    border-right: solid 1px #EC1D26;
+                    border-bottom: solid 1px #EC1D26;
+                    background-color: #F2F5F4;
+                    .anticon {
+                      color: #EC1D26;
+                      font-size: 3.73vw;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      #footer-social-wrapper {
+        text-align: left;
+        h4 {
+          font-size: 3.47vw;
+          font-family: RobotoBold;
+          color: #0F0D0D;
+        }
+        #social-icon-wrapper {
+          width: 100%;
+          display: flex;
+          flex-direction: row; 
+          justify-content: space-between;
+          img {
+            width: 8vw;
+            height: 8vw;
+          }
+        }
+      }
+    }
+  
+    .ant-divider-horizontal {
+      border: solid 0.27vw #707070;
+    }
+    .line {
+      margin: 2.67vw 0;
+      width: 40%;
+      height: 0.53vw;
+      background-color: #707070;
+    }
+  
+    #footer-item-copyrigth {
+      p {
+        font-size: 2.67vw;
+        color: #707070;
+        font-family: Roboto;
+      }
+    }  
+  }
+}

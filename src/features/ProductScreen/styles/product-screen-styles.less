@@ -1,0 +1,770 @@
+@import '../../../constant/theme.less';
+
+@media @desktop {
+  #product-detail-wrapper {
+    padding: 10.74vw 13.02vw !important;
+    //PRODUCT DETAIL CAROUSEL
+    //-----------------------/
+    #carousel-wrapper {
+      width: 100%;
+      #product-description-wrapper {
+        height: 57.4vw;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        h3 {
+          font-weight: bold;
+          font-size: 1.56vw;
+          color: #EC1D26;
+          margin-bottom: 1.77vw;
+        }
+        #text-wrapper {
+          width: 90%;
+          overflow: hidden;
+          p {
+            font-size: 1.04vw;
+            color: #0F0D0D;
+            font-family: Roboto;
+          }
+        }
+        #text-wrapper:hover {
+          overflow-y: scroll;
+        }
+        #control-container-wrapper {
+          display: flex;
+          flex-direction: row;
+          width: 26.16vw;
+          justify-content: space-between;
+          align-items: center;
+          // margin-bottom: 4.8vw;
+          // margin-top: 3.65vw;
+          p {
+            color: #EC1D26;
+            font-weight: bold;
+            font-size: 1.3vw;
+            margin-bottom: 0px;
+          }
+          #price-control-container-wrapper {
+            width: 7.16vw;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            #original-price {
+              color: #000000;
+              font-size: 0.98vw;
+              text-decoration: line-through;
+            }
+          }
+          #custom-btn {
+            width: 9.43vw;
+            height: 2.6vw;
+            font-weight: bold;
+            font-size: 1.04vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            font-family: RobotoBold;
+          }
+        }
+        #carousel-item-control-wrapper {
+          margin-bottom: 0px !important;
+          .ant-col {
+            // max-width: 10.42vw;
+            // height: 7.81vw;
+            margin-right: 1.61vw;
+            padding-bottom: 0px !important;
+            padding-top: 15px !important;
+            // margin-bottom: 1.04vw;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+      }
+  
+      #product-thumbnail-wrapper {
+        position: relative;
+        padding: 0px 2.73vw;
+        // padding-bottom: 16px;
+        width: 36.77vw;
+        height: 57.4vw;
+        .ant-carousel {
+          height: 100%;
+          .slick-slider {
+            height: 100%;
+            .slick-list {
+              height: 100%;
+              .slick-track {
+                height: 100%;
+                .slick-slide {
+                  height: 100%;
+                  div {
+                    height: 100%;
+                  }
+                }
+              }
+            }
+          }
+          #product-thumbnail-image {
+            width: 100%;
+            height: 100%;
+          }
+        }
+  
+        .ant-btn {
+          width: 2.97vw;
+          height: 2.97vw;
+          border-radius: 50%;
+          background-color: #E3E3E3;
+          position: absolute;
+          top: 50%;
+          svg {
+            width: 0.68vw;
+            height: 1.35vw;
+          }
+        }
+  
+        #control-btn-left {
+          left: -1.2vw !important;
+        }
+  
+        #control-btn-right {
+          right: -1.2vw !important;
+        }
+      }
+    }
+
+    #mobile-carousel-wrapper {
+      display: none;
+    }
+  
+    //PRODUCT TECHNOLOGY
+    //------------------------
+    #product-technology-wrapper {
+      padding-top: 6.15vw;
+      padding-bottom: 9.18vw;
+      background-color: #F2F5F4 !important;
+      .ant-space {
+        justify-content: space-between;
+        height: 100%;
+      }
+      #title-wrapper {
+        text-align: left;
+        h3 {
+          font-size: 2.08vw;
+          color: #EC1D26;
+          font-weight: bold;
+        }
+      }
+      #banner-wrapper {
+        text-align: left;
+        div {
+          height: 100%;
+          img {
+            height: 100%;
+            width: 100%;
+          }
+        }
+      }
+      .card-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 16px;
+        .btn-custom {
+          width: 4.22vw;
+          height: 4.22vw;
+          border-radius: 50%;
+          background-color: #FFFFFF;
+          font-weight: bold;
+          font-size: 2.14vw;
+          margin-right: 1.22vw;
+          font-family: RobotoBold;
+          color: #7C7C7C;
+        }
+        .line {
+          height: 5.78vw;
+          border: solid 0.1vw #7C7C7C;
+          background-color: #7C7C7C;
+          margin-right: 1.22vw;
+          margin-left: 0px;
+        }
+        .card-text-wrapper {
+          text-align: left;
+          width: 29.3vw;
+          h5 {
+            color: #707070;
+            font-size: 1.3vw;
+            margin-bottom: 0px;
+          }
+          p {
+            font-size: 1.95vw;
+            margin-bottom: 0px;
+            font-family: Roboto;
+          }
+        }
+      }
+      .card-wrapper:hover {
+        .btn-custom {
+          background-color: #EC1D26;
+          color: #FFFFFF;
+        }
+        .line {
+          border: solid 0.1vw #EC1D26;
+          background-color: #EC1D26;
+        }
+      }
+    }
+  
+    //PRODUCT TEAM DEVELOPE
+    //---------------------------//
+    #product-team-wrapper {
+      position: relative;
+      text-align: center;
+      padding-left: 20px;
+      h3 {
+        color: #707070;
+        font-size: 40px;
+        font-weight: bold;
+      }
+      #sub-text-heading {
+        p {
+          margin: auto;
+          max-width: 1125px;
+          width: 100%;
+          font-size: 20px;
+          margin-bottom: 24px;
+          font-family: Roboto;
+        }
+      }
+      .member-card-wrapper {
+        width: auto;
+        padding-top: 27px;
+        .ant-card-cover {
+          height: 222px;
+          width: 222px;
+          margin: auto;
+          img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+          }
+        }
+        .ant-card-body {
+          .ant-card-meta {
+            .ant-card-meta-detail {
+              .ant-card-meta-title {
+                margin-top: 53px;
+                margin-bottom: 0px;
+                font-size: 20px;
+                font-weight: bold;
+                font-family: RobotoBold;
+              }
+            }
+          }
+          .card-description {
+            margin-top: 34px;
+            font-family: Roboto;
+          }
+        }
+      }
+      .ant-btn {
+        width: 57px;
+        height: 57px;
+        border-radius: 29px;
+        background-color: #E3E3E3;
+        position: absolute;
+        top: 51px;
+      }
+      #btn-custom-left {
+        left: -10px;
+      }
+      #btn-custom-right {
+        right: 0px;
+      }
+    }
+  
+    //PRODUCT MANUAL//
+    //---------------------------//
+    #product-manual-wrapper {
+      #heading {
+        h3 {
+          font-size: 2.08vw;
+          font-weight: bold;
+          color: #EC1D26;
+        }
+      }
+      .product-manual-tab-wrapper {
+        width: 100%;
+        // height: 30.26vw;
+        .ant-tabs-nav {
+          // max-width: 1111px !important;
+          // width: 100%;
+          margin: auto;
+          text-align: center;
+          .ant-tabs-tab {
+            width: 19.01vw;
+            height: 4.01vw;
+            border: solid 0.05vw #707070;
+            margin-right: 0.78vw !important;
+            margin-left: 0px !important;
+            .ant-tabs-tab-btn {
+              font-size: 1.04vw;
+              font-weight: bold;
+              font-family: RobotoBold;
+              margin: auto;
+              color: #707070;
+            }
+          }
+          .ant-tabs-tab-active {
+            background-color: #EC1D26;
+            .ant-tabs-tab-btn {
+              color: #FFFFFF;
+            }
+          }
+        }
+        .ant-tabs-content-holder {
+          padding-top: 3.42vw;
+          padding-bottom: 1.86vw;
+          padding-right: 3.91vw;
+          padding-left: 3.91vw;
+          border: solid 0.05vw #707070;
+          box-shadow: 0 0.29vw 0.59vw rgba(0, 0, 0, 0.16) !important;
+          font-family: Roboto;
+          font-size: 1.04vw;
+          text-align: left;
+          color: #707070;
+        }
+      }
+    }
+    #banner-combo-wrapper {
+      img {
+        width: 100%;
+      }
+      #control-banner-combo-wrapper {
+        margin-top: 1.17vw;
+        padding: 0 2.34vw;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p {
+          margin-bottom: 0px;
+          font-size: 1.17vw;
+          font-family: Roboto;
+        }
+        .ant-btn {
+          width: 19.53vw;
+          height: 3.91vw;
+          border-radius: 1.46vw;
+          background-color: #F49A31;
+          color: #FFFFFF;
+          font-family: RobotoBold;
+          font-size: 1.56vw;
+        }
+      }
+    }
+    #button-license-wrapper {
+      margin-top: 1.667vw;
+      margin-bottom: 2.5vw;
+      button {
+        background-color: #EC1D26;
+        font-weight: bold;
+        font-size: 1.667vw;
+        width: 27.778vw;
+        padding: 1.389vw 0px;
+        color: white;
+        border: none;
+        border-radius: 1.111vw;
+        cursor: pointer;
+        outline: none;
+        box-shadow: 3px 3px 4px #c4c4c4;
+      }
+    }
+  }
+}
+
+
+@media @mobile {
+  #product-detail-wrapper {
+    padding: 2.67vw 3.2vw !important;
+    //PRODUCT DETAIL CAROUSEL
+    //-----------------------/
+    #carousel-wrapper {
+      display: none;
+    }
+
+    #mobile-carousel-wrapper {
+      #product-description-wrapper {
+        text-align: left;
+        display: flex;
+        flex-direction: column-reverse;
+        margin: auto !important;
+        h3 {
+          font-weight: bold;
+          font-size: 5.33vw;
+          color: #EC1D26;
+        }
+        #text-wrapper {
+          // height: 44.8vw;
+          p {
+            color: #0F0D0D;
+            font-family: Roboto;
+          }
+        }
+        #control-container-wrapper {
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 4vw;
+          p {
+            color: #EC1D26;
+            font-family: RobotoBold;
+            font-size: 4.53vw;
+            margin-bottom: 0px;
+          }
+          #price-control-container-wrapper {
+            width: 25%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            #original-price {
+              color: #000000;
+              font-size: 3.53vw;
+              text-decoration: line-through;
+            }
+          }
+          #custom-btn {
+            width: 33.33vw;
+            height: 10.67vw;
+            font-size: 4.27vw;
+            font-family: RobotoBold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+
+        #carousel-item-control-wrapper {
+          margin-bottom: 16px !important;
+          .ant-col {
+            padding: 8px 6px !important;
+          }
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+  
+      #product-thumbnail-wrapper {
+        position: relative;
+        padding: 7.47vw 7.47vw;
+        margin: auto !important;
+        height: 156.25vw;
+        .ant-carousel {
+          height: 100%;
+          .slick-slider {
+            height: 100%;
+            .slick-list {
+              height: 100%;
+              .slick-track {
+                height: 100%;
+                .slick-slide {
+                  height: 100%;
+                  div {
+                    height: 100%;
+                  }
+                }
+              }
+            }
+          }
+          #product-thumbnail-image {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        #product-thumbnail-image {
+          width: 95%;
+          height: 95%;
+        }
+  
+        .ant-btn {
+          width: 37.01px;
+          height: 37.01px;
+          border-radius: 5.07vw;
+          background-color: #E3E3E3;
+          position: absolute;
+          top: 50%;
+        }
+  
+        #control-btn-left {
+          left: -15px !important;
+        }
+  
+        #control-btn-right {
+          right: -15px !important;
+        }
+      }
+    }
+  
+    //PRODUCT TECHNOLOGY
+    //------------------------
+    #product-technology-wrapper {
+      padding-top: 8.8vw;
+      padding-bottom: 9.07vw;
+      background-color: #F2F5F4 !important;
+      #title-wrapper {
+        text-align: left;
+        margin-bottom: 3.2vw;
+        h3 {
+          font-size: 3.73vw;
+          color: #EC1D26;
+          font-family: RobotoBold;
+        }
+      }
+      #banner-wrapper {
+        margin-bottom: 11.2vw;
+        div {
+          img {
+            width: 100%;
+          }
+        }
+        
+      }
+      #product-tech-wrapper {
+        .ant-space {
+          float: left;
+        }
+      }
+      .card-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .btn-custom {
+          width: 10.93vw;
+          height: 10.93vw;
+          border-radius: 5.6vw;
+          background-color: #FFFFFF;
+          font-weight: bold;
+          font-size: 3.73vw;
+          text-align: center;
+        }
+        .line {
+          height: 10.93vw;
+          border: solid 0.27vw #7C7C7C;
+        }
+        .card-text-wrapper {
+          text-align: left;
+          h5 {
+            color: #707070;
+            font-size: 3.73vw;
+            margin-bottom: 0px;
+          }
+          p {
+            font-size: 3.73vw;
+            margin-bottom: 0px;
+            font-family: Roboto;
+          }
+        }
+      }
+      .card-wrapper:hover {
+        .btn-custom {
+          background-color: #EC1D26;
+          color: #FFFFFF;
+        }
+        .line {
+          border: solid 0.27vw #EC1D26;
+        }
+      }
+    }
+  
+    //PRODUCT TEAM DEVELOPE
+    //---------------------------//
+    #product-team-wrapper {
+      position: relative;
+      text-align: center;
+      h3 {
+        color: #707070;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      #sub-text-heading {
+        text-align: left;
+        p {
+          margin: auto;
+          max-width: 1125px;
+          width: 100%;
+          height: 102px;
+          font-size: 14px;
+          margin-bottom: 14px;
+          font-family: Roboto;
+        }
+      }
+      .member-card-wrapper {
+        width: 260px;
+        height: 368px;
+        padding-top: 27px;
+        margin: auto;
+        .ant-card-cover {
+          height: 111px;
+          width: 111px;
+          margin: auto;
+          img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+          }
+        }
+        .ant-card-body {
+          .ant-card-meta {
+            .ant-card-meta-detail {
+              .ant-card-meta-title {
+                margin-top: 13px;
+                margin-bottom: 0px;
+                font-size: 20px;
+                font-weight: bold;
+                font-family: RobotoBold;
+              }
+            }
+          }
+          .card-description {
+            margin-top: 14px;
+            height: 100px;
+            overflow: scroll;
+            font-family: Roboto;
+          }
+        }
+      }
+      .ant-btn {
+        width: 37px;
+        height: 37px;
+        border-radius: 19px;
+        background-color: #E3E3E3;
+        position: absolute;
+        top: -20px;
+      }
+      #btn-custom-left {
+        left: -10px;
+      }
+      #btn-custom-right {
+        right: -10px;
+      }
+    }
+  
+    //PRODUCT MANUAL//
+    //---------------------------//
+    #product-manual-wrapper {
+      padding-top: 4.27vw;
+      text-align: center;
+      width: 100%;
+      #heading {
+        h3 {
+          font-size: 5.33vw;
+          font-weight: bold;
+          color: #EC1D26;
+        }
+      }
+      .product-manual-tab-wrapper {
+        // max-width: 375px;
+        width: 100%;
+        // height: 154.93vw;
+        margin: auto;
+        .ant-tabs-nav {
+          min-width: 80vw !important;
+          width: 100%;
+          margin: auto;
+          text-align: center;
+  
+          .ant-tabs-tab {
+            width: 29.38vw;
+            height: 9.38vw;
+            border: solid 0.13vw #707070;
+            margin-right: 2.13vw !important;
+            margin-left: 0px !important;
+            padding: 0px;
+            .ant-tabs-tab-btn {
+              font-size: 3.13vw;
+              font-weight: bold;
+              font-family: RobotoBold;
+              margin: auto;
+              color: #707070;
+            }
+          }
+          .ant-tabs-tab-active {
+            background-color: #EC1D26;
+            .ant-tabs-tab-btn {
+              color: #FFFFFF;
+            }
+          }
+        }
+        .ant-tabs-content-holder {
+          padding-top: 9.33vw;
+          padding-bottom: 5.07vw;
+          padding-left: 1.33vw;
+          padding-right: 1.33vw;
+          border: solid 0.13vw #707070;
+          box-shadow: 0 0.8vw 1.6vw rgba(0, 0, 0, 0.16) !important;
+          font-family: Roboto;
+          text-align: left;
+          p {
+            color: #707070;
+            font-size: 3.73vw;
+            text-align: left;
+            font-family: Roboto;
+          }
+        }
+      }
+    }
+    #banner-combo-wrapper {
+      img {
+        width: 100%;
+      }
+      #control-banner-combo-wrapper {
+        margin-top: 1.88vw;
+        padding: 0 3.13vw;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p {
+          margin-bottom: 0px;
+          font-size: 3.13vw;
+          font-family: Roboto;
+        }
+        .ant-btn {
+          width: 25vw;
+          height: 7.5vw;
+          border-radius: 3.13vw;
+          background-color: #F49A31;
+          color: #FFFFFF;
+          font-family: RobotoBold;
+          font-size: 3.75vw;
+          padding: 0px;
+        }
+      }
+    }
+    #button-license-wrapper {
+      margin-top: 2.5vw;
+      margin-bottom: 5vw;
+      button {
+        background-color: #EC1D26;
+        font-weight: bold;
+        font-size: 3.75vw;
+        width: 46.875vw;
+        padding: 3.125vw 0px;
+        color: white;
+        border: none;
+        border-radius: 2.5vw;
+        cursor: pointer;
+        outline: none;
+        box-shadow: 3px 3px 4px #c4c4c4;
+      }
+    }
+  }
+}

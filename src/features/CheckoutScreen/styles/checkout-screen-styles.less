@@ -1,0 +1,491 @@
+@import '../../../constant/theme.less';
+
+@media @desktop {
+  #checkout-screen-wrapper {
+    padding: 16.89vw 6.91vw;
+    //BILLING WRAPPER//
+    //---------------//
+    #billing-wrapper {
+      margin-bottom: 1.56vw;
+      h4 {
+        text-align: left;
+        width: 39.26vw;
+        border-bottom: solid #707070 1px;
+        font-size: 1.56vw;
+      }
+      .checkout-info-item-wrapper {
+        width: 39.26vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1.56vw;
+        padding: 0px 1.76vw;
+        background-color: #F1F9FF;
+        .title-checkout-info-item-wrapper {
+          font-family: RobotoBold;
+          margin-bottom: 0px;
+          font-size: 1.37vw;
+        }
+        .money-checkout-info-item-wrapper {
+          font-family: RobotoBold;
+          color: #EC1D26;
+          margin-bottom: 0px;
+          font-size: 1.37vw;
+        }
+      }
+      #total-checkout-info-item-wrapper {
+        width: 39.26vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1.56vw;
+        padding: 0px 1.76vw;
+        background-color: #F1F9FF;
+        #title-total-checkout-info-item-wrapper {
+          font-family: RobotoBold;
+          margin-bottom: 0px;
+          font-size: 1.96vw;
+        }
+        #money-total-checkout-info-item-wrapper {
+          font-family: RobotoBold;
+          color: #EC1D26;
+          margin-bottom: 0px;
+          font-size: 1.96vw;
+        }
+      }
+      #bonus-info-checkout-info-item-wrapper {
+        width: 39.26vw;
+        text-align: center;
+        font-size: 1.37vw;
+        margin-top: 1.56vw;
+        font-family: Roboto;
+      }
+      //CART ITEM LIST//
+    //------------------------//
+    .cart-item-list-wrapper {
+      margin-top: 0px;
+      width: 39.26vw;
+      .item-wrapper {
+        background-color: #F1F9FF;
+        padding: 1.37vw 1.76vw;
+        .item-info-wrapper {
+          .item-name {
+            width: 12.53vw;
+            color: #0F0D0D;
+            font-size: 1.56vw;
+            margin-bottom: 0.53vw;
+            font-family: RobotoBold;
+          }
+          .item-des {
+            color: #0F0D0D;
+            font-size: 1.37vw;
+            margin-bottom: 0px;
+            font-family: Roboto;
+          }
+          img {
+            width: 10.42vw;
+          }
+        }
+        .quantity-input-wrapper {
+          p {
+            color: #0F0D0D;
+            font-family: Roboto;
+            font-size: 1.17vw;
+            margin-bottom: 0px;
+          }
+         .quantity-input-wrapper-control {
+           display: flex;
+           width: 100px;
+           .ant-btn {
+             background: none !important;
+             border: none;
+             color: #000000;
+             padding: 0px;
+           }
+           .quantity-input-custom {
+            font-family: RobotoBold;
+            text-align: center !important;
+            background: none;
+            border: none;
+            color: #000000 !important;
+            padding: 0 !important;
+            font-size: 1.37vw;
+          }
+         }
+        }
+        .item-price-wrapper {
+          width: 8.3vw;
+          text-align: right;
+          p {
+            color: #EC1D26;
+            font-weight: bold;
+            font-size: 1.56vw;
+            margin-bottom: 0px;
+            font-family: RobotoBold;
+          }
+        }
+      }
+      }
+    }
+    //DELIVERY FORM WRAPPER//
+    //---------------------//
+    #delivery-form-wrapper {
+      h4 {
+        text-align: left;
+        width: 39.26vw;
+        border-bottom: solid #707070 1px;
+        font-size: 1.56vw;
+      }
+      #custom-form {
+        width: 39.26vw;
+        label {
+          color: #7C7C7C;
+          font-size: 1.17vw;
+        }
+      }
+    }
+    //PAYMENT METHOD WRAPPER//
+    //----------------------//
+    #payment-method-wrapper {
+      h4 {
+        text-align: left;
+        width: 39.26vw;
+        border-bottom: solid #707070 1px;
+        font-size: 1.56vw;
+      }
+      .paypal-container-row {
+        width: 39.26vw;
+        display: flex;
+        justify-content: space-around;
+        .text-hide {
+          display: none;
+        }
+        .button-hide {
+          opacity: 0;
+        }
+        p {
+          font-size: 1.37vw;
+        }
+        #fiserv-button-row {
+          background-color: #EF6330;
+          color: #FFFFFF;
+          border-radius: 5px;
+          font-size: 16px;
+          height: auto;
+          font-family: RobotoBold;
+        }
+      }
+      #button-payment-wrapper {
+        width: 39.26vw;
+        .ant-btn {
+          width: 12.4vw;
+          height: 3.71vw;
+          border-radius: 0.39vw;
+        }
+      }
+    }
+    #back-cart-btn {
+      border-radius: 0.39vw;
+      border: solid 2px #7C7C7C;
+      background: none;
+      color: #7C7C7C;
+      font-family: RobotoBold;
+    }
+    .checkout-btn {
+      border-radius: 0.39vw;
+      background-color: #EC1D26;
+      color: #FFFFFF;
+      font-family: RobotoBold;
+    }
+  }
+  #pay_button {
+    background-color: #E3E3E3;
+    color: #7C7C7C;
+    border: none;
+    border-radius: 0.39vw;
+    width: 19.53vw;
+    height: 3.52vw;
+    font-weight: bold;
+    margin-bottom: 1.56vw;
+    margin-top: 1.56vw;
+  }
+  .ant-select-item {
+    margin-bottom: 16px;
+    padding: 0px;
+    .ant-select-item-option-content {
+      font-size: 1.37vw;
+    }
+  }
+  //FISERV MODAL
+  .fiserv-payment-modal-wrapper {
+    .ant-modal-body {
+      padding: 0.833vw;
+      .content-fiserv-payment-modal-wrapper {
+        .logo-content-fiserv-payment-modal-wrapper {
+          width: 6.944vw;
+          background-color: #EF6330;
+          margin-bottom: 16px;
+        }
+        .amount-content-fiserv-payment-modal-wrapper {
+          display: flex;
+          width: 34.722vw;
+          margin: auto;
+          justify-content: space-between;
+          p {
+            font-family: RobotoBold;
+            font-size: 1.111vw;
+          }
+        }
+        .fiserv-pay-btn {
+          background-color: #EF6330;
+          color: #FFFFFF;
+          font-family: RobotoBold;
+          width: 8.333vw;
+        }
+      }
+    }
+  }
+}
+
+@media @mobile {
+  #checkout-screen-wrapper {
+    padding: 6.25vw 3.13vw;
+    //BILLING WRAPPER//
+    //---------------//
+    #billing-wrapper {
+      margin-bottom: 5vw;
+      h4 {
+        text-align: left;
+        width: 93.75vw;
+        border-bottom: solid #707070 1px;
+        font-size: 3.75vw;
+      }
+      .checkout-info-item-wrapper {
+        width: 93.75vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 16px;
+        padding: 0px 1.76vw;
+        background-color: #F1F9FF;
+        .title-checkout-info-item-wrapper {
+          font-family: RobotoBold;
+          margin-bottom: 0px;
+          font-size: 2.5vw;
+        }
+        .money-checkout-info-item-wrapper {
+          font-family: RobotoBold;
+          color: #EC1D26;
+          margin-bottom: 0px;
+          font-size: 2.5vw;
+        }
+      }
+      #total-checkout-info-item-wrapper {
+        width: 93.75vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 16px;
+        padding: 0px 3.13vw;
+        background-color: #F1F9FF;
+        #title-total-checkout-info-item-wrapper {
+          font-family: RobotoBold;
+          margin-bottom: 0px;
+          font-size: 3.63vw;
+        }
+        #money-total-checkout-info-item-wrapper {
+          font-family: RobotoBold;
+          color: #EC1D26;
+          margin-bottom: 0px;
+          font-size: 3.63vw;
+        }
+      }
+      //CART ITEM LIST//
+    //------------------------//
+    .cart-item-list-wrapper {
+      margin-top: 0px;
+      width: 93.75vw;
+      .item-wrapper {
+        background-color: #F1F9FF;
+        padding: 3.13vw 3.13vw;
+        .item-info-wrapper {
+          .item-name {
+            width: 26.88vw;
+            color: #0F0D0D;
+            font-size: 3.13vw;
+            margin-bottom: 0.53vw;
+            font-family: RobotoBold;
+          }
+          .item-des {
+            color: #0F0D0D;
+            font-size: 2.81vw;
+            margin-bottom: 0px;
+            font-family: Roboto;
+          }
+          img {
+            width: 25vw;
+          }
+        }
+        .quantity-input-wrapper {
+          p {
+            color: #0F0D0D;
+            font-family: Roboto;
+            font-size: 2.81vw;
+            margin-bottom: 0px;
+          }
+         .quantity-input-wrapper-control {
+           display: flex;
+           width: 15.63vw;
+           .ant-btn {
+             background: none !important;
+             border: none;
+             color: #000000;
+             padding: 0px;
+           }
+           .quantity-input-custom {
+            font-family: RobotoBold;
+            text-align: center !important;
+            background: none;
+            border: none;
+            color: #000000 !important;
+            padding: 0 !important;
+            font-size: 2.81vw;
+          }
+         }
+        }
+        .item-price-wrapper {
+          width: 18.75vw;
+          text-align: right;
+          p {
+            color: #EC1D26;
+            font-weight: bold;
+            font-size: 3.13vw;
+            margin-bottom: 0px;
+            font-family: RobotoBold;
+          }
+        }
+      }
+      }
+    }
+    //DELIVERY FORM WRAPPER//
+    //---------------------//
+    #delivery-form-wrapper {
+      h4 {
+        text-align: left;
+        width: 93.75vw;
+        border-bottom: solid #707070 1px;
+        font-size: 3.75vw;
+      }
+      #custom-form {
+        width: 93.75vw;
+        label {
+          color: #7C7C7C;
+          font-size: 3.75vw;
+        }
+      }
+    }
+    //PAYMENT METHOD WRAPPER//
+    //----------------------//
+    #payment-method-wrapper {
+      margin-bottom: 5vw;
+      margin-top: 5vw;
+      h4 {
+        text-align: left;
+        width: 93.75vw;
+        border-bottom: solid #707070 1px;
+        font-size: 3.75vw;
+      }
+      .paypal-container-row {
+        .text-hide {
+          display: none;
+        }
+        .button-hide {
+          opacity: 0;
+        }
+        #fiserv-button-row {
+          background-color: #EF6330;
+          color: #FFFFFF;
+          border-radius: 5px;
+          font-size: 16px;
+          height: auto;
+          font-family: RobotoBold;
+          margin-left: 10px;
+        }
+      }
+      #button-payment-wrapper {
+        width: 93.75vw;
+        .ant-btn {
+          width: 100px;
+          height: 38px;
+          border-radius: 4px;
+          img {
+            width: 24px;
+            height: auto;
+          }
+        }
+      }
+    }
+    #back-cart-btn {
+      border-radius: 0.39vw;
+      border: solid 2px #7C7C7C;
+      background: none;
+      color: #7C7C7C;
+      font-family: RobotoBold;
+      width: 100%;
+    }
+    .checkout-btn {
+      width: 100%;
+      border-radius: 0.39vw;
+      background-color: #EC1D26;
+      font-family: RobotoBold;
+      color: #FFFFFF;
+    }
+  }
+  #pay_button {
+    background-color: #E3E3E3;
+    color: #7C7C7C;
+    border: none;
+    border-radius: 1.07vw;
+    width: 53.33vw;
+    height: 9.6vw;
+    font-weight: bold;
+    margin-bottom: 4.27vw;
+    margin-top: 4.27vw;
+  }
+  .ant-select-item {
+    margin-bottom: 16px;
+    padding: 0px;
+    .ant-select-item-option-content {
+      font-size: 3.13vw;
+    }
+  }
+  //FISERV MODAL
+  .fiserv-payment-modal-wrapper {
+    .ant-modal-body {
+      padding: 12px;
+      .content-fiserv-payment-modal-wrapper {
+        .logo-content-fiserv-payment-modal-wrapper {
+          width: 100px;
+          background-color: #EF6330;
+          margin-bottom: 16px;
+        }
+        .amount-content-fiserv-payment-modal-wrapper {
+          display: flex;
+          width: 100%;
+          margin: auto;
+          justify-content: space-between;
+          p {
+            font-family: RobotoBold;
+            font-size: 16px;
+          }
+        }
+        .fiserv-pay-btn {
+          background-color: #EF6330;
+          color: #FFFFFF;
+          font-family: RobotoBold;
+          width: 120px;
+        }
+      }
+    }
+  }
+}

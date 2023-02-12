@@ -1,0 +1,315 @@
+@import '../../../constant/theme.less';
+
+
+@media @desktop {
+  #technology-screen {
+    #technology-screen-wrapper {
+      position: relative;
+      margin: 0 !important;
+      //BANNER
+      //--------------------------//
+      #banner-wrapper {
+        position: relative;
+        padding: 0px !important;
+        #banner-header-wrapper {
+          img {
+            width: 100%;
+          }
+          #banner-des-wrapper {
+            position: absolute;
+            width: 94.82vw;
+            height: 40.04vw;
+            bottom: 0px;
+            right: calc(100% - 90%);
+            text-align: right;
+            h2 {
+              color: #EC1D26;
+              font-size: 4.3vw;
+              font-weight: bold;
+              margin-bottom: 2.73vw;
+            }
+            #text-subheading-wrapper {
+              width: 100%;
+              margin-bottom: 2.73vw;
+              padding-left: 44.92vw;
+              p {
+                height: 16.41vw;
+                font-size: 1.56vw;
+                overflow: hidden;
+                font-family: Roboto;
+                color: #FFFFFF;
+              }
+            }
+            #tech-banner-btn {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-around;
+              align-items: center;
+              float: right;
+              width: 20.21vw;
+              height: 6.54vw;
+              border-radius: 4.49vw;
+              font-weight: bold;
+              color: #FFFFFF;
+              font-size: 1.95vw;
+              .anticon {
+                font-size: 3.91vw;
+              }
+            }
+          } 
+        }
+      }
+    
+      //TECH CARD
+      //---------------------------//
+      #tech-cards-wrapper {
+        padding: 0px 6.54vw !important;
+        margin-bottom: 10.64vw;
+        width: 100%;
+        margin: auto !important;
+        margin-top: -3.91vw !important;
+        .col-card-wrapper {
+          padding: 1.78vw !important;
+        }
+        .tech-card-wrapper {
+          // height: 45.02vw;
+          height: auto;
+          // padding: 6.05vw 5.57vw 9.18vw 5.57vw;
+          // padding: 6.05vw 5.57vw 0px 5.57vw;
+          // padding: 6.05vw 0px 0px 0px;
+          padding: 0px;
+          .ant-card-cover {
+            height: 9.08vw;
+            width: 9.08vw;
+            border-radius: 4.69vw;
+            background-color: #E3E3E3;
+            padding-top: 2.15vw;
+            margin: auto;
+            .tech-card-cover {
+              width: 5.08vw;
+              height: 5.08vw;
+              margin: auto;
+            }
+          }
+          .ant-card-body {
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+            padding-bottom: 0px !important;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            div {
+              width: 100%;
+              p {
+                margin-bottom: 0px !important;
+                img {
+                  width: 100% !important;
+                  height: auto !important;
+                }
+              }
+            }
+            .tech-card-description-wrapper {
+              .ant-card-meta-detail {
+                .ant-card-meta-title {
+                  font-size: 1.27vw;
+                  color: #707070;
+                  margin-bottom: 2.03vw;
+                  font-family: RobotoBold;
+                }
+                .ant-card-meta-description {
+                  font-size: 1.66vw;
+                  // height: 11.72vw;
+                  overflow: hidden;
+                  font-family: Roboto;
+                }
+              }
+            }
+          }
+        }
+        .tech-card-wrapper:hover {
+          background-color: #EC1D26;
+          .ant-card-body {
+            .tech-card-description-wrapper {
+              .ant-card-meta-detail {
+                .ant-card-meta-title {
+                  color: #FFFFFF;
+                }
+                .ant-card-meta-description {
+                  color: #FFFFFF;
+                  overflow-y: scroll;
+                }
+              }
+            }
+          }
+        }
+      }
+      //FEATURE
+      #feature-banner {
+        width: 100%;
+        img {
+          width: 100%;
+        }
+      }
+      //BANNER FOOTER 
+      //---------------------------//
+      #tech-footer-banner {
+        margin-bottom: 112px;
+        width: 100%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media @mobile {
+  #technology-screen-wrapper {
+    position: relative;
+    margin: 0 !important;
+    //BANNER
+    //--------------------------//
+    #banner-wrapper {
+      padding: 0px !important;
+      div {
+        img {
+          width: 100%;
+        }
+      }
+      position: relative;
+      #banner-des-wrapper {
+        width: 100%;
+        height: 53.33vw;
+        text-align: right;
+        padding-right: 3.47vw;
+        position: absolute;
+        top: 25vw;
+        h2 {
+          color: #EC1D26;
+          font-size: 3.73vw;
+          font-weight: bold;
+          margin-bottom: 3.2vw;
+        }
+        #text-subheading-wrapper {
+          width: 100%;
+          margin-bottom: 7.47vw;
+          p {
+            width: 100%;
+            font-size: 3.2vw;
+            overflow: hidden;
+            font-family: Roboto;
+            color: #FFFFFF;
+          }
+        }
+        #tech-banner-btn {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          align-items: center;
+          float: right;
+          width: 28.53vw;
+          height: 7.2vw;
+          border-radius: 12.27vw;
+          font-weight: bold;
+          color: #FFFFFF;
+          font-size: 3.2vw;
+          .anticon {
+            font-size: 5.33vw;
+          }
+        }
+      } 
+    }
+    //FEATURE
+    #feature-banner {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+    //TECH CARD
+    //---------------------------//
+    #tech-cards-wrapper {
+      padding: 0px 6.4vw !important;
+      margin-top: 4.27vw;
+      margin-bottom: 7.73vw;
+      .tech-card-wrapper {
+        width: 100%;
+        // padding-top: 3.2vw;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        div {
+          width: 100%;
+          p {
+            margin-bottom: 0px !important;
+            img {
+              width: 100% !important;
+              height: auto !important;
+            }
+          }
+        }
+        .ant-card-cover {
+          height: 13.33vw;
+          width: 13.33vw;
+          border-radius: 6.67vw;
+          background-color: #E3E3E3;
+          padding-top: 3.73vw;
+          margin: auto;
+          .tech-card-cover {
+            width: 6.67vw;
+            height: 6.67vw;
+            margin: auto;
+          }
+        }
+        .ant-card-body {
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+            padding-bottom: 0px !important;
+          .tech-card-description-wrapper {
+            .ant-card-meta-detail {
+              .ant-card-meta-title {
+                font-size: 2.19vw;
+                font-weight: bold;
+                color: #707070;
+                margin-bottom: 4.47vw;
+                font-family: RobotoBold;
+              }
+              .ant-card-meta-description {
+                font-size: 3.73vw;
+                height: 100px;
+                overflow: scroll;
+                font-family: Roboto;
+              }
+            }
+          }
+        }
+      }
+    }
+    .tech-card-wrapper:hover {
+      background-color: #EC1D26;
+      .ant-card-body {
+        .tech-card-description-wrapper {
+          .ant-card-meta-detail {
+            .ant-card-meta-title {
+              color: #FFFFFF;
+            }
+            .ant-card-meta-description {
+              color: #FFFFFF;
+              overflow-y: scroll;
+            }
+          }
+        }
+      }
+    }
+  
+    //BANNER FOOTER 
+    //---------------------------//
+    #tech-footer-banner {
+      margin-bottom: 8.53vw;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

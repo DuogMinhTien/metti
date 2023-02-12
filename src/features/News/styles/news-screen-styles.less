@@ -1,0 +1,227 @@
+@import '../../../constant/theme.less';
+
+@media @desktop {
+  #news-screen-wrapper {
+    //BANNER
+    //---------------------------//
+    #banner-news-wrapper {
+      margin-bottom: 9.18vw;
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+    //news INFO
+    //---------------------------//
+    #news-info-wrapper {
+      padding-left: 4.88vw !important;
+      text-align: left;
+      .ant-row {
+        width: 100%;
+        max-width: 70.31vw;
+        margin: auto !important;
+      }
+      h3 {
+        color: #EC1D26;
+        font-size: 3.91vw;
+        font-weight: bold;
+      }
+      #news-list-wrapper {
+        p {
+          color: #707070;
+          font-family: Roboto;
+          font-size: 1.66vw;
+        }
+        h4 {
+          font-size: 2.93vw;
+          font-weight: bold;
+          color: #707070;
+        }
+        .news-item-wrapper {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          margin-bottom: 2.05vw;
+          .anticon {
+            font-size: 1.95vw;
+          }
+          p {
+            font-size: 1.17vw;
+            margin-left: 1.91vw;
+            margin-bottom: 0px;
+            font-family: Roboto;
+          }
+        }
+      }
+      #image-location-wrapper {
+        width: 100%;
+        img {
+          width: 100%;
+        }
+      }
+      video {
+        margin-top: 16px;
+        height: 29.3vw;
+      }
+      iframe {
+        width: 100%;
+        height: 30.76vw;
+        text-align: center;
+      }
+    }
+    //FORM INPUT
+    //---------------------------//
+    #form-wrapper {
+      padding-right: 4.88vw !important;
+      .form-input-wrapper {
+        width: 95%;
+        max-width: 70.31vw;
+        margin: auto;
+        .text-input {
+          height: 8.79vw;
+          font-size: 1.66vw;
+        }
+        #text-area {
+          height: 25.32vw !important;
+          font-size: 1.66vw;
+        }
+      }
+      .btn-wrapper {
+        text-align: left;
+        #email-form-btn {
+          height: 5.96vw;
+          width: 19.63vw;
+          background-color: #E3E3E3;
+          color: #7C7C7C;
+          font-size: 2.44vw;
+          font-weight: bold;
+        }
+      }
+    }
+    //MAP WRAPPER
+    //--------------------------//
+    #map-picture-wrapper {
+      margin-top: 10.55vw;
+      margin-bottom: 12.7vw;
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media @mobile {
+  #news-screen-wrapper {
+    //BANNER
+    //---------------------------//
+    #banner-news-wrapper {
+      margin-bottom: 3.73vw;
+      img {
+        width: 100%;
+      }
+    }
+    //news INFO
+    //---------------------------//
+    #news-info-wrapper {
+      padding-left: 3.4vw !important;
+      padding-right: 3.4vw !important;
+      text-align: left;
+      h3 {
+        color: #EC1D26;
+        font-size: 6.4vw;
+        font-weight: bold;
+      }
+      #news-list-wrapper {
+        p {
+          color: #707070;
+          font-family: Roboto;
+        }
+        h4 {
+          font-size: 4.53vw;
+          font-weight: bold;
+          color: #707070;
+        }
+        .news-item-wrapper {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          margin-bottom: 5.6vw;
+          .anticon {
+            font-size: 4.38vw;
+          }
+          p {
+            margin-left: 2.67vw;
+            margin-bottom: 0px;
+            font-family: Roboto;
+            font-size: 3.13vw;
+          }
+        }
+      }
+      #image-location-wrapper {
+        width: 100%;
+        img {
+          width: 100%;
+        }
+      }
+      video {
+        margin-top: 16px;
+        height: 78.13vw;
+      }
+      iframe {
+        max-width: 404px;
+        width: 100%;
+        height: 46.88vw;
+      }
+    }
+    //FORM INPUT
+    //---------------------------//
+    #form-wrapper {
+      padding: 0px 6.4vw !important;
+      .form-input-wrapper {
+        .custom-text-area {
+          height: 32vw;
+        }
+        .text-input {
+          height: 12vw;
+        }
+        #text-area {
+          height: 32vw !important;
+        }
+      }
+      .btn-wrapper {
+        text-align: left;
+        #email-form-btn {
+          height: 11.47vw;
+          width: 32vw;
+          background-color: #E3E3E3;
+          color: #7C7C7C;
+          font-size: 3.73vw;
+          font-weight: bold;
+        }
+      }
+    }
+    //MAP WRAPPER
+    //--------------------------//
+    #map-picture-wrapper {
+      margin-top: 4.8vw;
+      margin-bottom: 3.73vw;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .new-detail {
+    img {
+      object-fit: contain;
+    }
+  }
+}
+
+.react-pdf__Page {
+  margin: 10px auto;
+}
+
+canvas.react-pdf__Page__canvas {
+  margin: auto;
+}

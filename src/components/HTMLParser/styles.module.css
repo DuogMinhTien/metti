@@ -1,0 +1,101 @@
+.root {
+  /* @apply overflow-x-hidden; */
+
+  & h1 {
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+  }
+
+  & h2 {
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+  }
+
+  & h3 {
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+  }
+  & h4 {
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+  }
+
+  & h5 {
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+  }
+
+  & h6 {
+    font-size: 0.67em;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+  }
+
+  & img {
+    margin: auto;
+  }
+}
+
+.root a {
+  @apply underline hover:text-blue-700;
+  color: -webkit-link;
+}
+.root p {
+  @apply mb-1.5;
+}
+
+.root pre {
+  @apply whitespace-pre-wrap block;
+  font-family: monospace;
+  margin: 1em 0px;
+}
+
+.root table {
+  @apply my-4;
+}
+
+.root td {
+  @apply p-1.5 border-solid border;
+  border-color: #ccc;
+}
+
+.root blockquote {
+  @apply border-l-2 border-solid ml-6 pl-4 mt-4;
+  border-color: #ccc;
+}
+
+.root ul {
+  -webkit-padding-start: 40px;
+  -webkit-margin-start: 1em;
+  -webkit-margin-end: 1em;
+  list-style: disc;
+}
+
+.root figure {
+  @apply table my-4 mx-auto;
+}
+
+.root figure figcaption {
+  @apply block mt-1 text-center;
+  color: #999;
+}
+
+.root iframe,
+.root video {
+  @apply max-h-full max-w-full mx-auto;
+}
+
+.root h1,
+.root h2,
+.root h3,
+.root h4,
+.root h5,
+.root h6 {
+  @apply font-bold block;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}

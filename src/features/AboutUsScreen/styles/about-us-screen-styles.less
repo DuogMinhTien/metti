@@ -1,0 +1,213 @@
+@import '../../../constant/theme.less';
+
+@media @desktop {
+  #about-us-screen-wrapper {
+    margin-bottom: 2.34vw;
+    //HEADING BANNER
+    //-----------------------------//
+    #heading-banner-wrapper {
+      margin-bottom: 7.91vw;
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+    //TABS
+    //-------------------------------//
+    #tabs-about-us-wrapper {
+      padding-left: 4.88vw;
+      padding-right: 4.88vw;
+      .about-us-tabs-wrapper {
+        margin-bottom: 10.74vw;
+        width: 100%;
+        .ant-tabs-nav {
+          .ant-tabs-nav-wrap {
+            border-bottom: solid 0.1vw #7C7C7C;
+            .ant-tabs-nav-list {
+              margin: auto;
+              .ant-tabs-tab {
+                margin-right: 0px !important;
+                margin-left: 0px !important;
+                padding: 0px;
+                .ant-tabs-tab-btn {
+                  width: 15.21vw;
+                  height: 4.01vw;
+                  padding-top: 1.76vw;
+                  border-top-left-radius: 1.95vw;
+                  border-top-right-radius: 1.95vw;
+                  border: solid 0.1vw #7C7C7C;
+                  font-size: 1.04vw;
+                  font-weight: bold;
+                  font-family: RobotoBold;
+                  color: #707070;
+                }
+              }
+              .ant-tabs-tab-active {
+                .ant-tabs-tab-btn {
+                  background-color: #EC1D26;
+                  color: #FFFFFF;
+                }
+              }
+            }
+          }
+        }
+        .ant-tabs-content-holder {
+          font-family: Roboto;
+          .ant-tabs-content {
+            .ant-tabs-tabpane {
+              .text-des-wrapper {
+                width: 40.53vw;
+                // height: 22.17vw;
+                text-align: left;
+                // margin-top: 1.88vw;
+                p {
+                  img {
+                    width: 100% !important;
+                    height: auto !important;
+                  }
+                }
+                ul {
+                  list-style: none;
+                  padding-left: 0px;
+                  b {
+                    font-family: RobotoBold;
+                  }
+                }
+              }
+              .col-text-second-wrapper {
+                text-align: left;
+                font-size: 1.04vw;
+                // padding-left: 110px !important;
+              }
+              .ant-col {
+                div {
+                  width: 100%;
+                  img {
+                    width: 100%;
+                  }
+                }
+              }
+            }
+            //RESEARCH PANEL
+            #research-panel-wrapper {
+              // padding-top: 2.34vw;
+              #title {
+                text-align: left;
+                h3 {
+                  font-size: 2.93vw;
+                  font-weight: bold;
+                  color: #0F0D0D;
+                }
+              }
+              #research-footer-image {
+                margin-top: 1.56vw;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media @mobile {
+  #about-us-screen-wrapper {
+    //HEADING BANNER
+    //-----------------------------//
+    #heading-banner-wrapper {
+      margin-bottom: 3.2vw;
+      img {
+        width: 100%;
+      }
+    }
+    //TABS
+    //-------------------------------//
+    .about-us-tabs-wrapper {
+      padding-left: 6.4vw;
+      padding-right: 6.4vw;
+      margin-bottom: 4.8vw;
+      .ant-tabs-nav {
+        .ant-tabs-nav-wrap {
+          // border-bottom: solid 0.27vw #7C7C7C;
+          .ant-tabs-nav-list {
+            margin: auto;
+            .ant-tabs-tab {
+              margin-right: 0px !important;
+              margin-left: 0px !important;
+              padding: 0px;
+              .ant-tabs-tab-btn {
+                width: 30.27vw;
+                height: 7.73vw;
+                padding-top: 2.67vw;
+                border-top-left-radius: 5.33vw;
+                border-top-right-radius: 5.33vw;
+                border-top: solid 0.27vw #7C7C7C;
+                border-right: solid 0.27vw #7C7C7C;
+                border-left: solid 0.27vw #7C7C7C;
+                font-size: 2.47vw;
+                font-weight: bold;
+                font-family: RobotoBold;
+                color: #707070;
+              }
+            }
+            .ant-tabs-tab-active {
+              .ant-tabs-tab-btn {
+                background-color: #EC1D26;
+                color: #FFFFFF;
+              }
+            }
+          }
+        }
+      }
+      .ant-tabs-content-holder {
+        font-family: Roboto;
+        .ant-tabs-content {
+          text-align: left;
+          .ant-tabs-tabpane {
+            .text-des-wrapper {
+              width: 100%;
+              margin-top: 10px;
+              p {
+                img {
+                  width: 100% !important;
+                  height: auto !important;
+                }
+              }
+              ul {
+                list-style: none;
+                padding-left: 0px;
+                b {
+                  font-family: RobotoBold;
+                }
+              }
+            }
+            #col-text-second-wrapper {
+              text-align: right;
+              padding-left: 16px !important;
+            }
+            div {
+              img {
+                width: 100%;
+              }
+            }
+          }
+          //RESEARCH PANEL
+          #research-panel-wrapper {
+            // padding-top: 12px;
+            #title {
+              text-align: left;
+              h3 {
+                font-size: 20px;
+                font-weight: bold;
+                color: #0F0D0D;
+              }
+            }
+            #research-footer-image {
+              margin-top: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

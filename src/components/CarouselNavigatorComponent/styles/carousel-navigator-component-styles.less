@@ -1,0 +1,103 @@
+@import "../../../constant/theme.less";
+
+@media @desktop {
+  #carousel-navigator-component-wrapper {
+    width: 100%;
+    max-width: 1660px;
+    margin: auto;
+    .video-frame {
+      width: 100% !important;
+      height: 48.83vw !important;
+      margin-top: 1.111vw;
+      margin-bottom: 1.111vw;
+      // padding: 0px 0.347vw;
+    }
+    .nav-carousel {
+      margin-bottom: 1.111vw;
+      .slick-list {
+        .slick-track {
+          display: flex;
+          .slick-slide {
+            cursor: pointer;
+            padding: 0.694vw 0.347vw;
+            .container-carousel-item-wrapper {
+              .small-video-frame-container-carousel-item-wrapper {
+                width: 100% !important;
+                height: auto !important;
+              }
+              .pagination-container-carousel-item-wrapper {
+                width: 1.736vw;
+                height: 1.736vw;
+                background-color: #ec1d26;
+                border-radius: 50%;
+                margin: auto;
+                color: #ffffff;
+                font-family: RobotoBold;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
+            }
+          }
+        }
+      }
+      .slick-prev {
+        left: -4.167vw !important;
+        top: 74px !important;
+      }
+      .slick-next {
+        right: -4.167vw !important;
+        top: 74px !important;
+      }
+    }
+  }
+}
+
+@media @mobile {
+  #carousel-navigator-component-wrapper {
+    width: 100%;
+    .video-frame {
+      width: 100% !important;
+      height: 78.13vw !important;
+      margin-top: 16px;
+      margin-bottom: 16px;
+      padding: 0px 5px;
+    }
+    .nav-carousel {
+      margin-bottom: 16px;
+      .slick-list {
+        .slick-track {
+          .slick-slide {
+            padding: 10px 5px;
+            .container-carousel-item-wrapper {
+              .small-video-frame-container-carousel-item-wrapper {
+                width: 100% !important;
+                height: auto !important;
+              }
+              .pagination-container-carousel-item-wrapper {
+                width: 25px;
+                height: 25px;
+                background-color: #ec1d26;
+                border-radius: 50%;
+                margin: auto;
+                color: #ffffff;
+                font-family: RobotoBold;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
+            }
+          }
+        }
+      }
+      .slick-prev {
+        left: -0.235vw !important;
+        top: 80px !important;
+      }
+      .slick-next {
+        right: -0.235vw !important;
+        top: 80px !important;
+      }
+    }
+  }
+}
