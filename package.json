@@ -46,8 +46,8 @@
     "uuid": "^8.3.2"
   },
   "scripts": {
-    "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
+    "start": "react-app-rewired start --openssl-legacy-provider",
+    "build": "react-app-rewired build --openssl-legacy-provider",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
