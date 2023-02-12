@@ -7,7 +7,7 @@ WORKDIR /app
 COPY ./package*.json ./
 RUN yarn
 COPY . .
-RUN yarn build
+RUN NODE_OPTIONS=--openssl-legacy-provider && react-app-rewired build && react-app-rewired export
 
 # production stage
 FROM nginx:stable-alpine as production-stage
